@@ -313,7 +313,7 @@ footer{
 
 @media screen and (max-width: 576px) {
 
-    .navbar , .nav-links , .teams{
+    .navbar , .nav-links , .teams , .features{
 
           flex-direction: column; 
     }
@@ -359,13 +359,37 @@ footer{
         margin-top: 100px;
         margin-bottom: 100px;
     }
+     
+    .features{
+        gap: 50px;
+    }
 
+    .f-card-discription{
+        text-align: justify;
+    }
 
+    .features-architect img{
+        width: 100%;
+    }
+ 
+    #experience-badge {
+        width: 230px;
+        height: 150px;
+        padding: 35px 20px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-left: -7px;
+        margin-top: -80px; 
+    }
+
+    #experience-year {
+        font-size: 2.5rem;
+    }
 
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-     .teams{
+     .teams , .features{
         flex-direction: column;
     }
 
@@ -396,6 +420,21 @@ footer{
         gap: 50px;
         justify-items: center;
 
+    }
+
+    .feature-discription {
+        margin-left: 3%;
+    }
+
+    .features-architect img{
+        width: 100%;
+    }
+
+    #experience-badge {
+       width: 340px;
+       padding: 45px 20px;
+       margin-left: -10px;
+       margin-top: -110px;
     }
     
 }
